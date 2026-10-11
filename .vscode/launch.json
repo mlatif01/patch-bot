@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "dev",
+      // Runs `npm run dev` (tsx watch) with the debugger attached
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      // Use a real terminal so Ctrl+C and colored logs work
+      "console": "integratedTerminal",
+      // Don't step into Node internals or library code
+      "skipFiles": ["<node_internals>/**", "**/node_modules/**"]
+    }
+  ]
+}
