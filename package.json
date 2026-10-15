@@ -9,7 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tsx watch src/index.ts",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "agent": "tsx src/cli.ts"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   },
   "homepage": "https://github.com/mlatif01/patch-bot#readme",
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.134.0",
     "@slack/bolt": "^5.1.0"
   },
   "devDependencies": {

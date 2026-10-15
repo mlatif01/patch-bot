@@ -9,7 +9,8 @@ Stack: TypeScript, Slack Bolt (Socket Mode), Octokit (GitHub App), Anthropic SDK
 - Boilerplate and config are fine to write, but explain each part.
 - Keep dependencies minimal. Ask before adding one.
 - I haven't used much TypeScript so teach me in a way a junior dev can understand.
-- Current milestone: 1 (Slack echo bot).
+- Current milestone: 2 (Agent CLI).
+- At the end of each milestone, give me exercises and explain-it questions; don’t solve the exercises unless I ask.
 
 ## Milestones
 1. Slack echo bot

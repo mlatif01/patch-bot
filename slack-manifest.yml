@@ -5,16 +5,21 @@ features:
   bot_user:
     display_name: patchbot
     always_online: true
+  app_home:
+    messages_tab_enabled: true
+    messages_tab_read_only_enabled: false
 oauth_config:
   scopes:
     bot:
       - app_mentions:read
       - chat:write
       - channels:history
+      - im:history
 settings:
   event_subscriptions:
     bot_events:
       - app_mention
+      - message.im
   socket_mode_enabled: true
   interactivity:
     is_enabled: false
